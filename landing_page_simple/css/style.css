@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+html, body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.center{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.center h2{
+    display: inline-block;
+    color: #D02B94;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.header{
+    min-width: 1200px;
+    width: 100%;
+    height: 60px;
+    background-color: #212343;
+}
+
+.container-banner{
+    min-width: 1200px;
+    width: 100%;
+    height: 557px;
+    background-image: url('../img/programa.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+#titulo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-banner .center{
+    height: 100%;
+}
+
+.form{
+    padding: 10px;
+    width: 400px;
+    height: calc(100% + 30px);
+    top: -15px;
+    background-color: white;
+    position: relative;
+    float: right;
+    border: 6px solid #ccc;
+    border-radius: 5px;
+}
+
+.form h2{
+    display: inline-block;
+    font-size: 21px;
+    color: #999;
+    text-align: center;
+}
+
+.input-container{
+    margin-top: 20px;
+
+}
+
+.input-container span, .form p{
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    color: #BBB;
+    font-weight: bold;
+}
+
+.form p{
+    margin: 20px 0;
+}
+
+.input-container input[type=text]{
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+#botao{
+    text-align: center;
+}
+
+.form input[type=submit]{
+    width: 280px;
+    height: 56px;
+    background-color: #4a148c;
+    color: white;
+    font-size: 25px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.form input[type=submit]:hover{
+    background-color: #6a1b9a;
+}
+
+.container-list{
+    padding: 30px;
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, 0.7);
+    margin-top: 40px;
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul li{
+    margin-top: 18px;
+    color: white;
+
+}
+
+.container-2{
+    padding: 60px 0;
+    min-width: 1200px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+.container-2 h2{
+    font-weight: normal;
+    color: rgb(33, 35, 67);
+}
+
+.container-2 p{
+    width: 698px;
+    margin: 15px 0;
+    display: inline-block;
+    text-align: justify;
+}
+
+.container-2 .paragrafo{
+    text-align: center;
+}
+
+.arrow img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 84px;
+}
+
+.section-1{
+    padding: 90px 0;
+
+}
+
+.section-1 h2{
+    text-align: center;
+    color: #212343;
+}
+
+.section-1 .titulo{
+    text-align: center;
+}
+
+.container-section{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single{
+    float: left;
+    width: 33.333%;
+    padding: 30px;
+}
+
+.container-single img{
+    width: 80px;
+    height: 80px;
+}
+
+.container-single p{
+    padding: 10px 25px;
+    text-align: justify;
+}
+
+.footer{
+    border-top: 2px solid #888;
+    padding: 20px 0;
+    text-align: center;
+    color: #888;
+
+}
+
+.footer p{
+    margin-top: 8px;
+}
+
